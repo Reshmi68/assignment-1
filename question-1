@@ -1,0 +1,55 @@
+What is a Data Type?
+A data type defines the type of value a variable can store in a programming language. It determines:
+- What kind of data can be stored (e.g., numbers, text, boolean values).
+- The operations that can be performed on that data.
+- How much memory is allocated for storage.
+Types of Data Types
+Data types are broadly categorized into Primitive Data Types and Non-Primitive Data Types.
+1. Primitive Data Types
+Primitive data types are the most basic types built into a programming language. They hold simple values and have no additional functionalities.
+Data Type	Description	Example
+Integer (int)	Stores whole numbers	int age = 21;
+Floating Point (float, double)	Stores decimal numbers	float price = 99.99;
+Character (char)	Stores a single character	char grade = 'A';
+Boolean (bool)	Stores true or false values	bool isPassed = true;
+String (in some languages)	Stores a sequence of characters	String name = "John"; (in Java)
+Example in Python
+
+age = 25  # Integer
+pi = 3.14  # Float
+grade = 'A'  # Character
+is_student = True  # Boolean
+name = "Alice"  # String
+
+2. Non-Primitive Data Types
+Non-primitive data types (also called reference types) are more complex and can store multiple values or objects.
+Data Type	Description	Example
+Array	Collection of similar data types	int numbers[] = {1, 2, 3, 4};
+List (Dynamic Array in Python)	Resizable collection of elements	list = [1, 2, 3, 4]
+Tuple	Immutable ordered collection	tuple_data = (1, 2, 3)
+Dictionary (Map/HashMap)	Stores key-value pairs	dict_data = {"name": "John", "age": 25}
+Set	Unordered collection of unique elements	set_data = {1, 2, 3, 4}
+Class/Object	User-defined data structure	class Person {} (in Java)
+Example in Python
+
+# List (Similar to Array)
+numbers = [1, 2, 3, 4, 5]
+
+# Tuple (Immutable list)
+coordinates = (10, 20)
+
+# Dictionary (Key-Value pairs)
+person = {"name": "Alice", "age": 25}
+
+# Set (Unique elements)
+unique_numbers = {1, 2, 3, 4, 5}
+
+Key Differences: Primitive vs. Non-Primitive Data Types
+Feature	Primitive Data Types	Non-Primitive Data Types
+Complexity	Simple	Complex
+Storage	Stores a single value	Stores multiple values
+Operations	Direct operations (addition, comparison, etc.)	Require methods and functions for manipulation
+Example	int a = 10;	int arr[] = {1,2,3};
+Conclusion
+- Primitive Data Types are the building blocks of data manipulation (e.g., int, float, char).
+- Non-Primitive Data Types are more advanced and store multiple values or complex structures (e.g., list, dictionary, class).
